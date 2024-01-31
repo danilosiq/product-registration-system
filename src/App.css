@@ -1,0 +1,124 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.ContainerApp li {
+  margin-bottom: 5px;
+  right: 0;
+  display: flex;
+  justify-content: space-around;
+}
+
+.ContainerApp li p {
+  width: 50%;
+}
+
+.ContainerApp li button {
+
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #1a1a1a;
+  cursor: pointer;
+  transition: 200ms ease;
+
+}
+
+
+.Edit:hover {
+  background-color: rgb(243, 236, 169);
+  color: #1a1a1a;
+}
+
+.Del:hover {
+  background-color: rgb(236, 126, 126);
+  color: #1a1a1a;
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+
+
+.CadProd {
+  background-color: #646cffaa;
+  padding: 4%;
+  border-radius: 5px;
+}
+
+.CadProd form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.nut {
+  background-color: rgb(105, 212, 122);
+  border-radius: 10px;
+  margin: 5px;
+  color: black;
+  border-style: none;
+  width: 50%;
+  height: 50px;
+  transition: 150ms ease;
+  cursor: pointer;
+
+
+}
+
+img{
+  width: 150px;
+  border-radius: 50%;
+  transition: 180ms ease
+}
+img:hover{
+  transform: scale(1.1);
+}
+.TextCamp::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
+
+.sair{
+  background-color: rgb(236, 126, 126);
+  border-radius: 10px;
+  margin: 5px;
+  color: black;
+  border-style: none;
+  width: 50%;
+  height: 50px;
+  transition: 150ms ease;
+  cursor: pointer;
+}
+
+.sair:hover, .nut:hover{
+  filter: brightness(80%);
+}
+
+
+.TextCamp{
+  padding: 5px;
+  border-top-style: none ;
+  border-left-style: none ;
+  border-right-style:none;
+  border-color: aliceblue;
+  background-color: transparent;
+  width: 200px;
+  transition: width 150ms;
+  text-align: center;
+  appearance: none;
+}
+
+.TextCamp:focus{
+  outline: none;
+}

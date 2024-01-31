@@ -1,0 +1,28 @@
+{
+  "products": [
+    {
+      "posi": 1,
+      "id": "2",
+      "name": "Calça vermelha",
+      "price": 90
+    },
+    {
+      "id": "264a",
+      "posi": 3,
+      "name": "Mouse",
+      "price": "90"
+    },
+    {
+      "id": "4c41",
+      "posi": 4,
+      "name": "Cabo USB",
+      "price": "15"
+    },
+    {
+      "id": "332d",
+      "posi": 2,
+      "name": "Monitor",
+      "price": "150"
+    }
+  ]
+}
